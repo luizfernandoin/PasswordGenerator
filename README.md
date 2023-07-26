@@ -6,9 +6,9 @@
   </a>
 </p>
 
-# 🏠 [Homepage](https://github.com/luizfernandoin/NewSpace)
+# 🏠 [Homepage](https://github.com/luizfernandoin/PasswordGenerator)
 
-![plot](https://github.com/luizfernandoin/NewSpace/blob/main/app/static/src/img/site.png?raw=true)
+![plot](https://github.com/luizfernandoin/PasswordGenerator/blob/main/assets/img/site.png)
 
 
 ## Table of Contents 
@@ -20,7 +20,7 @@
 - [Show your support](#show-your-support)
 
 ## Description
-O Gerador de Senhas é um serviço web desenvolvido para criar senhas seguras e aleatórias. Com foco na segurança, a aplicação permite que o usuário selecione o tamanho da senha e os caracteres desejados, incluindo letras maiúsculas, minúsculas, números e caracteres especiais. É uma ferramenta simples e eficaz para gerar senhas confiáveis para diversas finalidades.
+Password Generator is a web service designed to create secure and random passwords. With a focus on security, the application allows the user to select the password length and the desired characters, including uppercase and lowercase letters, numbers and special characters. It is a simple and effective tool to generate reliable passwords for various purposes.
 
 ## Features
 - 🔐 Geração de senhas seguras e aleatórias.
