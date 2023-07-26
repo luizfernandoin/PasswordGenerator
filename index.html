@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="container">
+        <div class="logo">
+            <img src="./assets/img/logo2.png" alt="">
+        </div>
+
+        <div class="container-main">
+            <div class="main">
+                <h1>Password Generator</h1>
+                <div class="check">
+                    <div class="itemCheck">
+                        <label for="">Capital letters</label>
+                        <input type="checkbox" name="" id="uppercase">
+                    </div>
+                    <div class="itemCheck">
+                        <label for="">Small letters</label>
+                        <input type="checkbox" name="" id="lowercase">
+                    </div>
+                    <div class="itemCheck">
+                        <label for="">Numbers</label>
+                        <input type="checkbox" name="" id="numbers">
+                    </div>
+                    <div class="itemCheck">
+                        <label for="">Symbols</label>
+                        <input type="checkbox" name="" id="symbols">
+                    </div>
+                </div>
+
+                <div class="range">
+                    <div class="sliderValue">
+                        <p>Tamanho: <span>10</span></p>
+                    </div>
+                    <input id="myRange" class="slider" value="10" max="100" min="0" type="range">
+                </div>
+                <button class="btn">Generate</button>
+
+                <div class="password ">
+                    <img src="./assets/img/copy.png">
+                    <div class="value"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
